@@ -48,6 +48,7 @@ stdenv.mkDerivation rec {
 
   cmakeFlags = [
     "-DSURGE_BUILD_LV2=TRUE"
+    "-DCMAKE_MINIMUM_REQUIRED=3.5"
   ];
 
   CXXFLAGS = [
